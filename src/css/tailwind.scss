@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: #83BD75;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.box{
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.title{
+  font-size: 4rem;
+  color: #4E944F;
+}
+
+
+.bio{
+  font-size: 2rem;
+  color: #4E944F;
+}
+
+
+
+
+input{
+  border-radius: 1rem;
+  width: 100%;
+  border-color: #4E944F;
+  box-shadow: 0 1px 1px #4E944F inset, 0 0 8px #4E944F;
+  outline: 0 none;
+}
+
+.input{
+  font-size: 40px;
+
+}
+
+.btn{
+  background-color: #83BD75;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 12px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.btn-2{
+  background-color: #E9EFC0;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #4E944F;
+  transition: 1s;
+
+}
+
+#info{
+  font-size: 2em;
+}
+
+.weak{
+  color: red;
+}
+
+.medium{
+  color: orange;
+}
+
+.strong{
+  color: green;
+}
